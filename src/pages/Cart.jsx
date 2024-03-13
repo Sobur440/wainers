@@ -6,7 +6,7 @@ function Cart() {
 
   if (cartItems.length <= 0)
     return (
-      <p className="text-[2.5rem] h-screen w-screen fixed flex justify-center items-center ">
+      <p className="text-[4vw] h-screen w-screen fixed flex justify-center items-center ">
         Your Cart is empty
       </p>
     );
