@@ -8,6 +8,8 @@ function Product() {
   const [quantity, setQuantity] = useState(1);
   const { addToCart } = useContext(CartContext);
 
+  document.title = `Wainers | ${name}`;
+
   const handleAddToCart = () => {
     const newProduct = { image: good.image, name, price: good.price, quantity };
     addToCart(newProduct);

@@ -1,4 +1,6 @@
 function NotFound() {
+  document.title = "Wainers | 404";
+
   return (
     <div className="w-[100%] h-[100vh] fixed flex flex-col justify-center items-center">
       <div>

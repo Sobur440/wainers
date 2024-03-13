@@ -3,6 +3,7 @@ import { CartContext } from "../App";
 
 function Cart() {
   const { cartItems, deleteCartItem } = useContext(CartContext);
+  document.title = "Wainers | Cart";
 
   if (cartItems.length <= 0)
     return (

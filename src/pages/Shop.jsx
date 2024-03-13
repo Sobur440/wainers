@@ -52,6 +52,8 @@ function Shop() {
     },
   ];
 
+  document.title = "Wainers | Shop";
+
   if (goods.length <= 0)
     return (
       <p className="w-[100vw] h-[100vh] flex justify-center items-center fixed text-[4vw] ">
