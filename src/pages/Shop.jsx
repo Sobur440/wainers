@@ -1,5 +1,6 @@
 import Products from "../components/Products";
 import { goods } from "../data/good";
+import Footer from "../components/Footer";
 
 function Shop() {
   document.title = "Wainers | Shop";
@@ -12,13 +13,16 @@ function Shop() {
     );
   else
     return (
-      <div className="height-screen">
-        <div className="w-[100%] gap-[5rem] flex flex-col items-center lg:flex-row lg:justify-center flex-wrap ">
-          {goods.map((good) => (
-            <Products good={good} key={good.id} />
-          ))}
+      <>
+        <div className="height-screen">
+          <div className="w-[100%] gap-[5rem] flex flex-col items-center lg:flex-row lg:justify-center flex-wrap ">
+            {goods.map((good) => (
+              <Products good={good} key={good.id} />
+            ))}
+          </div>
         </div>
-      </div>
+        <Footer />
+      </>
     );
 }
 

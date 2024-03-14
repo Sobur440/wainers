@@ -3,7 +3,6 @@ import { useState, createContext } from "react";
 import Home from "./pages/Home.jsx";
 import Shop from "./pages/Shop.jsx";
 import NavBar from "./components/NavBar.jsx";
-// import Footer from "./components/Footer.jsx";
 import Product from "./pages/Product.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import Cart from "./pages/Cart.jsx";
@@ -40,7 +39,6 @@ function App() {
           <Route path="user" element={<User />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        {/* <Footer /> */}
       </CartContext.Provider>
     </>
   );
