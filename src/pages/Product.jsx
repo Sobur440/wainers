@@ -33,7 +33,7 @@ function Product() {
             <p>{good.price}</p>
           </div>
 
-          <div className="lg:w-[80%] gap-[.5rem] flex flex-col lg:flex-row lg:justify-between  ">
+          <div className="lg:w-[80%] gap-[1rem] flex flex-col lg:flex-row lg:justify-between  ">
             <div className="w-[5rem] border border-solid border-black px-1 flex justify-between self-center ">
               <button
                 onClick={() =>
