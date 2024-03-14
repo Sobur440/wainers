@@ -5,19 +5,19 @@ function Shop() {
     {
       name: "Nice Shoe",
       price: "$20",
-      image: "shoes.png",
+      image: "shoes.jpg",
       id: 1,
     },
     {
       name: "Nice Bangles",
       price: "$350",
-      image: "bangles.png",
+      image: "bangles.jpg",
       id: 2,
     },
     {
       name: "Nice Chains",
       price: "$72",
-      image: "chains.png",
+      image: "chains.jpg",
       id: 3,
     },
     {
@@ -33,9 +33,9 @@ function Shop() {
       id: 5,
     },
     {
-      name: "Nice Rings",
+      name: "Nice Ring",
       price: "$20",
-      image: "tenrings.jpg",
+      image: "rings.jpg",
       id: 6,
     },
     {
