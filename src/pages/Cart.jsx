@@ -8,14 +8,13 @@ function Cart() {
 
   if (cartItems.length === 0)
     return (
-      <p className="text-[4vw] h-screen w-[100%] fixed flex justify-center items-center ">
+      <p className="text-[4vw] h-screen w-[100%] flex justify-center items-center ">
         Your Cart is empty
       </p>
     );
   else
     return (
-      <>
-        {" "}
+      <div className="h-[100vh] flex flex-col justify-between">
         <ul className="w-[100%] flex flex-col gap-[4rem] ">
           {cartItems.map((item, i) => (
             <li
@@ -53,7 +52,7 @@ function Cart() {
           ))}
         </ul>
         <Footer />
-      </>
+      </div>
     );
 }
 
