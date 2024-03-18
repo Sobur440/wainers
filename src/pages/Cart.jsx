@@ -19,7 +19,7 @@ function Cart() {
           {cartItems.map((item, i) => (
             <li
               key={i}
-              className="w-[100%] flex flex-col lg:flex-row items-center lg:items-start lg:justify-evenly "
+              className="w-[100%] flex flex-col lg:flex-row items-center lg:items-start lg:justify-evenly"
             >
               <div>
                 <div>
