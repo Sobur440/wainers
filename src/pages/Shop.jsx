@@ -11,13 +11,11 @@ function Shop() {
 
   useEffect(() => {
     const fetchGoods = async () => {
-      const { data: goods, error } = await supabase.from("goods").select("*");
+      const { data: goods } = await supabase.from("goods").select("*");
       setGoods(goods);
-      console.log(error);
     };
     fetchGoods();
   }, []);
-  console.log(goods);
 
   if (goods.length === 0)
     return (
