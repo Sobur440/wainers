@@ -7,7 +7,7 @@ function NavBar() {
   const { cartItems } = useContext(CartContext);
 
   return (
-    <nav className="bg-[white] shadow-md w-[100%] h-[4rem] flex justify-between items-center px-[.5rem] mb-[3rem] fixed left-0 top-0 z-10">
+    <nav className="bg-[white] shadow-md w-[100%] h-[4rem] flex justify-between items-center px-[1rem] mb-[3rem] fixed left-0 top-0 z-10">
       <Link to="/" className="font-bold text-[1.6rem] ">
         Wainers
       </Link>
